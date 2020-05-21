@@ -1,8 +1,8 @@
 .title-bar{
-    height: 56px;
     border-bottom: 1px solid lightgray;
 }
 
 .title {
+    color: #D7493A;
     text-align: center;
 }
