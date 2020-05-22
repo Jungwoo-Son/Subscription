@@ -5,11 +5,10 @@
     padding: 0;
     background-color: #181818;
 }
-
-html, body, #root {
-    height: 100%;
+#root {
+    padding-top: 56px;
+    height: calc(100% - 56px);
 }
-
 
 #titlebar{
     position: fixed;
@@ -25,7 +24,6 @@ html, body, #root {
     width: 240px;
 }
 #contents {
-    margin-top: 56px;
     margin-left: 240px;
     height: 50%;
 }
