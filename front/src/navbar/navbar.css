@@ -1,3 +1,11 @@
 .navigation {
     border-right: 1px solid lightgray;
 }
+
+.channel {
+    margin: 10px;
+    width: auto;
+}
+.channel-list {
+    padding: 0;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 
-import giveStyleInterecter from '../utils/styleInterecter';
+import giveStyleReciever from '../utils/styleReciever';
+
+import LoginButton from './loginButton'
 
 import './titlebar.css';
 
@@ -8,9 +10,10 @@ import './titlebar.css';
 class TitleBar extends React.Component {
     
     render() {
-        return giveStyleInterecter(this,
+        return giveStyleReciever(this,
             <div className='title-bar'>
                 <h1 className='title'>Subscriber</h1>
+                <LoginButton id='login-btn'/>
             </div>
         );
     }

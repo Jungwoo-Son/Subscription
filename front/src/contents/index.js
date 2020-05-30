@@ -1,10 +1,10 @@
 import React from 'react';
-import giveStyleInterecter from '../utils/styleInterecter'
+import giveStyleReciever from '../utils/styleReciever'
 
 
 class Contents extends React.Component {
     render() {
-      return giveStyleInterecter(this, 
+      return giveStyleReciever(this, 
         <div className='content-container'></div>);
     }
 }

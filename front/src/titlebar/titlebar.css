@@ -3,6 +3,20 @@
 }
 
 .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: inline-block;
     color: #D7493A;
-    text-align: center;
+    margin: 0;
+}
+#login-btn{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+    margin-right: 50px;
 }

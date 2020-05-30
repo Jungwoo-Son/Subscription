@@ -6,7 +6,6 @@ import TitleBar from './titlebar'
 import NavBar from './navbar';
 import Contents from './contents'
 
-import giveStyleInterecter from './utils/styleInterecter';
 
 import './index.css'
 

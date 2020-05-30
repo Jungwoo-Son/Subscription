@@ -1,0 +1,11 @@
+.channel-image {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.channel-name {
+    color: white;
+    margin-left: 25px;
+    vertical-align: center;
+}

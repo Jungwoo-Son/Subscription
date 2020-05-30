@@ -1,4 +1,4 @@
-* {
+html, body, div {
     height: 100%;
     width: 100%;
     margin: 0;
@@ -9,6 +9,14 @@
     padding-top: 56px;
     height: calc(100% - 56px);
 }
+
+
+ul, li {
+    list-style: none;
+}
+
+
+
 
 #titlebar{
     position: fixed;
@@ -22,6 +30,7 @@
     bottom: 0;
     left: 0;
     width: 240px;
+    padding-top: 56px;
 }
 #contents {
     margin-left: 240px;
