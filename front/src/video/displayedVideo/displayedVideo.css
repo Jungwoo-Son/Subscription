@@ -1,0 +1,15 @@
+.displayed-video {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+.thumbnail-img {
+    display: block;
+    width: 282.656px;
+    height: calc(282.656px * 9 / 16);
+}
+.title-of-video {
+    margin: 0 10px 0 10px;   
+    color: white;
+    font-size: 20px;
+}
