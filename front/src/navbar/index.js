@@ -9,7 +9,7 @@ import './navbar.css';
 
 class NavBar extends React.Component {
     render() {
-        return giveStyleReciever(this,
+        return giveStyleReciever(this.props,
             <div className='navigation'>
                 <ul className='channel-list'>
                     <li><Channel className='channel'/></li>

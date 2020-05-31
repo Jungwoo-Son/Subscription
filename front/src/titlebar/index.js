@@ -10,7 +10,7 @@ import './titlebar.css';
 class TitleBar extends React.Component {
     
     render() {
-        return giveStyleReciever(this,
+        return giveStyleReciever(this.props,
             <div className='title-bar'>
                 <h1 className='title'>Subscriber</h1>
                 <LoginButton id='login-btn'/>

@@ -6,7 +6,7 @@ import './channel.css';
 
 class Channel extends React.Component {
     render() {
-        return giveStyleReciever(this, 
+        return giveStyleReciever(this.props, 
                 <>
                     <img className='channel-image'></img>
                     <span className='channel-name'>가나다라</span>

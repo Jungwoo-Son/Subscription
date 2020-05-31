@@ -7,7 +7,7 @@ import './loginButton.css'
 
 class LoginButton extends React.Component {
     render() {
-        return giveStyleReciever(this,
+        return giveStyleReciever(this.props,
                 <button className='login-btn'>
                     로그인
                 </button>);
