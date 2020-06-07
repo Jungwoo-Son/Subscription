@@ -16,7 +16,7 @@ import './index.css'
 
 // ReactDOM.render(
 //     <React.StrictMode>
-//         <DisplayedVideo src="https://i.ytimg.com/vi/qZ1SNmXx7F8/hq720.jpg?sqp=-oaymwEZCNAFEJQDSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDGUDxzqEwMp9iKIWJKAyXo7NWhdA"/>
+//         <LoginForm />
 //     </React.StrictMode>,
 //     document.getElementById('root')
 // );
