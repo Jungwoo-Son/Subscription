@@ -29,7 +29,7 @@ app.get('/signinCallback', (req, res) => {
         grant_type: 'authorization_code',
         redirect_uri: `http://localhost:8080/signinCallback`
     }).then((result) => {
-        res.cookie('tocken',result.data.access_token)
+        res.cookie('token',result.data.access_token)
             .redirect('http://localhost:3000');
     });
 
