@@ -12,11 +12,3 @@
     color: #D7493A;
     margin: 0;
 }
-#login-btn{
-    position: absolute;
-    right: 0%;
-    top: 50%;
-    transform: translate(0%, -50%);
-
-    margin-right: 50px;
-}
