@@ -6,7 +6,7 @@ html, body, div {
     background-color: #181818;
 }
 #root {
-    padding-top: 56px;
+    /* padding-top: 56px; */
     height: calc(100% - 56px);
 }
 
@@ -33,6 +33,7 @@ ul, li {
     padding-top: 56px;
 }
 #contents {
+    margin-top: 56px;
     margin-left: 240px;
     height: 50%;
 }
