@@ -14,8 +14,6 @@ app.use(express.json());
 
 //auth
 app.get('/auth', (req, res) => {
-    console.log('asdf');
-    // res.send('asdf');
     res.redirect(set_google_auth({
         redirect_uri: 'http://localhost:8080/signinCallback',
         scope: 'https://www.googleapis.com/auth/youtube'
@@ -31,7 +29,7 @@ app.get('/signinCallback', (req, res) => {
         grant_type: 'authorization_code',
         redirect_uri: `http://localhost:8080/signinCallback`
     }).then((result) => {
-        res.cookie('tocken',result.access_token)
+        res.cookie('tocken',result.data.access_token)
             .redirect('http://localhost:3000');
     });
 
